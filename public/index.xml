@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Welcome to My Blog on Unique Karki</title>
+    <link>https://uniquekarki.github.io/</link>
+    <description>Recent content in Welcome to My Blog on Unique Karki</description>
+    <generator>Hugo -- 0.92.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 02 Jun 2024 11:20:06 +0545</lastBuildDate>
+    <atom:link href="https://uniquekarki.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book recommendation</title>
+      <link>https://uniquekarki.github.io/posts/book_recommendation/</link>
+      <pubDate>Sun, 02 Jun 2024 11:20:06 +0545</pubDate>
+      <guid>https://uniquekarki.github.io/posts/book_recommendation/</guid>
+      <description>Here is the list of books that I recommend:   Crime and Punishment - Fyodor Dostoevsky  </description>
+    </item>
+    <item>
+      <title>Questions</title>
+      <link>https://uniquekarki.github.io/posts/questions/</link>
+      <pubDate>Mon, 26 Jul 2021 15:00:00 +0000</pubDate>
+      <guid>https://uniquekarki.github.io/posts/questions/</guid>
+      <description>Who are we if not for our questions?
+Where would humanity be if we were afraid to ask questions?
+Can humans progress any further if essential questions remain unasked?
+Can we know about ourselves if we are incapable of questioning about the self?
+How can we know about our existence?
+ Pondering over these questions will only scratch the surface of the importance of questioning.
+Over time, we have developed a capacity for critical thinking.</description>
+    </item>
+    <item>
+      <title>Passions and life</title>
+      <link>https://uniquekarki.github.io/posts/passions_and_lift/</link>
+      <pubDate>Tue, 25 May 2021 15:00:00 +0000</pubDate>
+      <guid>https://uniquekarki.github.io/posts/passions_and_lift/</guid>
+      <description>I lost my individuality when I became addicted to a drug known as “social media”. I felt the compulsion to do the things that weren’t aligned with what I was. When others posted a selfie, I had to post it too. When others wrote about something, I had to write about it too. Soon I became only a reflection of the people around me. I killed my passions and busied myself with what the outer world labeled as “normal” for me.</description>
+    </item>
+    <item>
+      <title>Nihilistic Visions</title>
+      <link>https://uniquekarki.github.io/posts/nihilistic_visions/</link>
+      <pubDate>Fri, 23 Apr 2021 15:00:00 +0000</pubDate>
+      <guid>https://uniquekarki.github.io/posts/nihilistic_visions/</guid>
+      <description>“I stood at the bottom of a long flight of stairs with nothing but darkness around me. The darkness around me was nothing like I’ve ever felt before; it felt dead. Nothing was alive except me and the god that was sitting on a throne at the top of the stairs. The divine god was faceless but large and overpowering.
+There was a great sense of faith and devotion in me towards him that prevented me from even lifting my head.</description>
+    </item>
+  </channel>
+</rss>
