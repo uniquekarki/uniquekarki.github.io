@@ -1,0 +1,33 @@
+baseURL = "https://uniquekarki.github.io/"
+languageCode = "en-us"
+title = "Unique Karki"
+theme = "PaperMod"
+
+[params]
+  author = "Unique Karki"
+  description = "Unique Karki"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  disableSpecial1st = false  # Ensure this is set to false to display the first post prominently
+  disableLangToggle = true
+  enableGoogleAnalytics = false
+  enableRobotsTXT = true
+  summaryLength = 50  # Adjust the summary length as needed
+  disableHLJS = false
+  baseURL = "https://uniquekarki.github.io/uniquekarki.github.io/"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
