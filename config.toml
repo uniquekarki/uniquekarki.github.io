@@ -15,6 +15,11 @@ theme = "PaperMod"
   summaryLength = 50  # Adjust the summary length as needed
   disableHLJS = false
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [menu]
   [[menu.main]]
     name = "Home"
@@ -27,6 +32,11 @@ theme = "PaperMod"
     weight = 2
 
   [[menu.main]]
+    name = "Accomplishments"
+    url = "/accomplishments/"
+    weight = 3
+
+  [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 4
