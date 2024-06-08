@@ -42,43 +42,43 @@ _build:
 
 ### Sports
 
-### Manjushree Trail Race 2023
+### Manjushree Trail Race 2023 24km
 <div style="display: flex; justify-content: space-around;">
     <img src="/img/accomplishments/manjushree-medal.jpg" alt="Manjushree Trail Race 2023 Medal">
 </div>
 <img src="/img/accomplishments/manjushree.jpeg" alt="Manjushree Trail Race 2023">
 
-### Kathmandu Half Marathon 2023
+### Kathmandu Half Marathon 2023 21.09km
 <div style="display: flex; justify-content: space-around;">
     <img src="/img/accomplishments/KTM-Marathon-Medal.jpg" alt="MKathmandu Half Marathon 2023 Medal">
 </div>
 <img src="/img/accomplishments/KTM_Marathon.jpeg" alt="Kathmandu Half Marathon 2023">
 
-### Kathmandu Valley Rim Stage 2
+### Kathmandu Valley Rim Stage 2 30km
 <div style="display: flex; justify-content: space-around;">
     <img src="/img/accomplishments/KVR-2-Front.jpg" alt="Kathmandu Valley Rim Stage 2 Front">
     <img src="/img/accomplishments/KVR-2-Back.jpg" alt="Kathmandu Valley Rim Stage 2 Back">
 </div>
 
-### Kathmandu Valley Rim Stage 3
+### Kathmandu Valley Rim Stage 3 30km
 <div style="display: flex; justify-content: space-around;">
     <img src="/img/accomplishments/KVR-3-Front.jpg" alt="Kathmandu Valley Rim Stage 3 Front">
     <img src="/img/accomplishments/KVR-3-Back.jpg" alt="Kathmandu Valley Rim Stage 3 Back">
 </div>
 
-### Kathmandu Valley Rim Stage 4
+### Kathmandu Valley Rim Stage 4 37km
 <div style="display: flex; justify-content: space-around;">
     <img src="/img/accomplishments/KVR-4-Front.jpg" alt="Kathmandu Valley Rim Stage 4 Front">
     <img src="/img/accomplishments/KVR-4-Back.jpg" alt="Kathmandu Valley Rim Stage 4 Back">
 </div>
 
-### Kathmandu Valley Rim Stage 5
+### Kathmandu Valley Rim Stage 5 30km
 <div style="display: flex; justify-content: space-around;">
     <img src="/img/accomplishments/KVR-5-Front.jpg" alt="Kathmandu Valley Rim Stage 5 Front">
     <img src="/img/accomplishments/KVR-5-Back.jpg" alt="Kathmandu Valley Rim Stage 5 Back">
 </div>
 
-### Farm Running Festival 15K
+### Farm Running Festival 15km
 <div style="display: flex; justify-content: space-around;">
     <img src="/img/accomplishments/Farm_run.jpeg" alt="Farm Running Festival 15K">
 </div>
