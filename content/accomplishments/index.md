@@ -10,54 +10,118 @@ _build:
     - [National Conference On Mathematics And Its Applications](#national-conference-on-mathematics-and-its-applications)
     - [KUCC Board Member](#kucc_board_member)
 - [Extracurricular Accomplishments](#extracurricular-accomplishments)
-    - [Manjushree Trail Race 2023](#manjushree-trail-race-2023)
-    - [Kathmandu Half Marathon 2023](#kathmandu-half-marathon-2023)
-    - [Kathmandu Valley Rim Stage 2](#kathmandu-valley-rim-stage-2)
-    - [Kathmandu Valley Rim Stage 3](#kathmandu-valley-rim-stage-3)
-    - [Kathmandu Valley Rim Stage 4](#kathmandu-valley-rim-stage-4)
-    - [Kathmandu Valley Rim Stage 5](#kathmandu-valley-rim-stage-5)
-
+    - [Sports](#sports)
+        - [Manjushree Trail Race 2023](#manjushree-trail-race-2023)
+        - [Kathmandu Half Marathon 2023](#kathmandu-half-marathon-2023)
+        - [Kathmandu Valley Rim Stage 2](#kathmandu-valley-rim-stage-2)
+        - [Kathmandu Valley Rim Stage 3](#kathmandu-valley-rim-stage-3)
+        - [Kathmandu Valley Rim Stage 4](#kathmandu-valley-rim-stage-4)
+        - [Kathmandu Valley Rim Stage 5](#kathmandu-valley-rim-stage-5)
+        - [Farm Running Festival 15K](#farm-running-festival-15k)
+        - [First Year Interdepartmental Basketball Tournament](#first-year-interdepartmental-basketball-tournament)
+        - [KUCC Cup Basketball](#kucc-cup-basketball)
+        - [SXJ Football](#sxj-football)
+    - [Music](#music)
+        - [Talent Show First Prize Dance](#talent-show-first-prize-dance)
+        - [Talent Show Second Prize Instrumental](#talent-show-second-prize-instrumental)
+        - [School Mela Band Contest Third](#school-mela-band-contest-third)
+        - [Interact Club Talent Show First Singing](#interact-club-talent-show-first-singing)
+        - [Enviornmental Song Competition](#enviornmental-song-competition)
 
 ## Academic Accomplishments
 ----
 
 ### National Conference On Mathematics And Its Applications
-![NCMA](/img/NCMA.jpeg)
+![NCMA](/img/accomplishments/NCMA.jpeg)
 
 ### KUCC Board Member
-![KUCC Board Member](/img/KUCC_Board.jpeg)
+![KUCC Board Member](/img/accomplishments/KUCC_Board.jpeg)
 
 ## Extracurricular Accomplishments
 ----
 
+### Sports
+
 ### Manjushree Trail Race 2023
-![Manjushree Trail Race 2023 Medal](/img/manjushree-medal.jpg)
-![Manjushree Trail Race 2023](/img/manjushree.jpeg)
+<div style="display: flex; justify-content: space-around;">
+    <img src="/img/accomplishments/manjushree-medal.jpg" alt="Manjushree Trail Race 2023 Medal">
+</div>
+<img src="/img/accomplishments/manjushree.jpeg" alt="Manjushree Trail Race 2023">
 
 ### Kathmandu Half Marathon 2023
-![Kathmandu Half Marathon 2023 Medal](/img/KTM-Marathon-Medal.jpg)
-![Kathmandu Half Marathon 2023](/img/KTM_Marathon.jpeg)
+<div style="display: flex; justify-content: space-around;">
+    <img src="/img/accomplishments/KTM-Marathon-Medal.jpg" alt="MKathmandu Half Marathon 2023 Medal">
+</div>
+<img src="/img/accomplishments/KTM_Marathon.jpeg" alt="Kathmandu Half Marathon 2023">
 
 ### Kathmandu Valley Rim Stage 2
 <div style="display: flex; justify-content: space-around;">
-    <img src="/img/KVR-2-Front.jpg" alt="Kathmandu Valley Rim Stage 2 Front">
-    <img src="/img/KVR-2-Back.jpg" alt="Kathmandu Valley Rim Stage 2 Back">
+    <img src="/img/accomplishments/KVR-2-Front.jpg" alt="Kathmandu Valley Rim Stage 2 Front">
+    <img src="/img/accomplishments/KVR-2-Back.jpg" alt="Kathmandu Valley Rim Stage 2 Back">
 </div>
 
 ### Kathmandu Valley Rim Stage 3
 <div style="display: flex; justify-content: space-around;">
-    <img src="/img/KVR-3-Front.jpg" alt="Kathmandu Valley Rim Stage 3 Front">
-    <img src="/img/KVR-3-Back.jpg" alt="Kathmandu Valley Rim Stage 3 Back">
+    <img src="/img/accomplishments/KVR-3-Front.jpg" alt="Kathmandu Valley Rim Stage 3 Front">
+    <img src="/img/accomplishments/KVR-3-Back.jpg" alt="Kathmandu Valley Rim Stage 3 Back">
 </div>
 
 ### Kathmandu Valley Rim Stage 4
 <div style="display: flex; justify-content: space-around;">
-    <img src="/img/KVR-4-Front.jpg" alt="Kathmandu Valley Rim Stage 4 Front">
-    <img src="/img/KVR-4-Back.jpg" alt="Kathmandu Valley Rim Stage 4 Back">
+    <img src="/img/accomplishments/KVR-4-Front.jpg" alt="Kathmandu Valley Rim Stage 4 Front">
+    <img src="/img/accomplishments/KVR-4-Back.jpg" alt="Kathmandu Valley Rim Stage 4 Back">
 </div>
 
 ### Kathmandu Valley Rim Stage 5
 <div style="display: flex; justify-content: space-around;">
-    <img src="/img/KVR-5-Front.jpg" alt="Kathmandu Valley Rim Stage 5 Front">
-    <img src="/img/KVR-5-Back.jpg" alt="Kathmandu Valley Rim Stage 5 Back">
+    <img src="/img/accomplishments/KVR-5-Front.jpg" alt="Kathmandu Valley Rim Stage 5 Front">
+    <img src="/img/accomplishments/KVR-5-Back.jpg" alt="Kathmandu Valley Rim Stage 5 Back">
 </div>
+
+### Farm Running Festival 15K
+<div style="display: flex; justify-content: space-around;">
+    <img src="/img/accomplishments/Farm_run.jpeg" alt="Farm Running Festival 15K">
+</div>
+
+### First Year Interdepartmental Basketball Tournament
+<div style="display: flex; justify-content: space-around;">
+    <img src="/img/accomplishments/First-year-basketball.jpg" alt="First Year Interdepartmental Basketball Tournament">
+</div>
+<img src="/img/accomplishments/First-year-basketball-certificate.jpeg" alt="First Year Interdepartmental Basketball Tournament">
+
+### KUCC Cup Basketball
+<div style="display: flex; justify-content: space-around;">
+    <img src="/img/accomplishments/kucc-cup.jpg" alt="KUCC Cup Basketball">
+</div>
+
+### SXJ Football
+<div style="display: flex; justify-content: space-around;">
+    <img src="/img/accomplishments/sxj-football.jpeg" alt="SXJ Football" width="485px" height="700px">
+</div>
+
+### Music
+----
+### Talent Show First Prize Dance
+<div style="display: flex; justify-content: space-around;">
+    <img src="/img/accomplishments/Talent-show-first.jpg" alt="Talent Show First Prize Dance">
+</div>
+<img src="/img/accomplishments/Talent-show-first-certificate.jpeg" alt="Talent Show First Prize Dance">
+
+### Talent Show Second Prize Instrumental
+<div style="display: flex; justify-content: space-around;">
+    <img src="/img/accomplishments/Talent-show-second-medal.jpg" alt="Talent Show Second Prize Instrumental">
+</div>
+<img src="/img/accomplishments/Talent-show-second.jpeg" alt="Talent Show Second Prize Instrumental">
+
+### School Mela Band Contest Third
+<div style="display: flex; justify-content: space-around;">
+    <img src="/img/accomplishments/School-mela-band-contest.jpg" alt="School Mela Band Contest Third">
+</div>
+<img src="/img/accomplishments/School-mela-band-competition-certificate.jpeg" alt="School Mela Band Contest Third">
+
+### Interact Club Talent Show First Singing
+<img src="/img/accomplishments/Interact-club-1.jpeg" alt="Interact Club Talent Show First Singing">
+<img src="/img/accomplishments/Interact-club-1.jpeg" alt="Interact Club Talent Show First Singing">
+
+### Enviornmental Song Competition
+<img src="/img/accomplishments/Environmental-song.jpeg" alt="Enviornmental Song Competition">
