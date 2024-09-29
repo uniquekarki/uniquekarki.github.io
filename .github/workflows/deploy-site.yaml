@@ -2,7 +2,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      # Checkout the commit that has been pushed
+      # Checkout the commit that has been pushed.
       - uses: actions/checkout@v4
 
       # Setup Hugo, update modules, etc.
