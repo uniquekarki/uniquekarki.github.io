@@ -1,6 +1,6 @@
 name: Deploy to Github Pages
 
-# run when a commit is pushed to "source" branch.
+# run when a commit is pushed to "source" branch
 on:
   push:
     branches:
@@ -16,7 +16,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
       with:
-        hugo-version: 'latest'
+        hugo-version: '0.135.0'
         extended: true
 
     - name: Update Hugo Modules
@@ -34,6 +34,13 @@ jobs:
 
     - name: Build
       run: hugo --minify
+    
+      # Debugging steps
+      - name: Check Git Status
+        run: git status
+
+      - name: List Public Directory
+        run: ls -al ./public
 
     # push the generated content into the `gh-pages` branch.
     - name: Deploy
