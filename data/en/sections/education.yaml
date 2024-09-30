@@ -1,0 +1,64 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: B.Sc. in Computer Science
+  icon: fa-graduation-cap
+  timeframe: 2012-2016
+  institution:
+    name: Kathmandu University
+    url: "https://ku.edu.np/"
+    logo: /images/sections/education/ku.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/university.jpg
+  grade: #(optional)
+    scale: CGPA
+    achieved: 3.04
+    outOf: 4
+  extracurricularActivities: #(optional)
+  - 2018 - First Year Interdepartmental Basketball Tournament.
+  - 2018 - Participated in Coding Tournament in IT MEET.
+  - 2018 - KUCC Cup First Runner Up (Basketball).
+- name: National Examination Board Examination
+  icon: fa-university
+  timeframe: 2015-2017
+  institution:
+    name: St. Xavier's School
+    url: "https://stx.edu.np/"
+    logo: /images/sections/education/sxj.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/science_college.png
+  grade: #(optional)
+    scale: Percentage
+    achieved: 70%
+    outOf: 100%
+  extracurricularActivities: #(optional)
+  - 2015 - Plus 2 Talent Show Winner (Dance).
+  - 2016 - Interact Charity Talent Show Winner (Singing).
+  - 2016 - Plus 2 Talent Show First Runner Up (Instrumental).
+  - 2016 - Boys Football Winner.
+  - 2016 - School Mela Band Contest Second Runner Up.
+- name: School Leaving Certificate
+  icon: fa-school
+  timeframe: 2004-2015
+  institution:
+    name: St. Xavier's School
+    url: "https://stx.edu.np/"
+    logo: /images/sections/education/sxj.png
+  grade: #(optional)
+    scale: Percentage
+    achieved: 81.5%
+    outOf: 100%
+  extracurricularActivities: #(optional)
+  - 2008 - 2012 - High jump podium place.
+  - 2009 - One Act Play winner.
+  - 2013 - Represented school in 'Environmental Song Competition' organized by National Trust for Nature Conservation (NTNC).
+  - Participated in Musical Band Competition.

@@ -55,7 +55,7 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.png
+  background: /images/site/background1.jpeg
 
   # GitHub repo URL of your site
   gitRepo: https://github.com/uniquekarki/uniquekarki.github.io

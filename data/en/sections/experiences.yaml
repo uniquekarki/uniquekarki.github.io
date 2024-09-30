@@ -1,0 +1,76 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Bajra Technologies Pvt. Ltd.
+    url: "https://bajratechnologies.com/"
+    location: Kathmandu, Nepal
+    logo: /images/sections/experiences/bajra_logo.jpeg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
+    # company overview
+  positions:
+  - designation: Associate Software Engineer
+    start: Jun 2022
+    end: Jun 2024
+    responsibilities:
+    - <b>EHR Development</b> - Led the development, testing, and documentation of features for Electronic Healthcare Records, focusing on code quality and bug resolution.
+    - <b>FHIR Integration</b> - Specialized in FHIR standards, implementing seamless data exchange with Healsuite through efficient patient data retrieval and health record updates.
+    - <b>Server Management</b> - Deployed and maintained staging servers to ensure high performance and reliability.
+
+- company:
+    name: V.S. International College
+    url: "https://vsic.edu.np/"
+    location: Kathmandu, Nepal
+    logo: /images/sections/experiences/vs_logo.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+  positions:
+  - designation: Software Engineering Intern
+    start: Apr 2022
+    end: Present
+    responsibilities:
+    - <b>Subjects taught</b> - Data Structures And Algorithms (CACS201), Operating System (CACS251), Software Engineering (CACS253).
+    - <b>Student Guidance</b> - Supervised and guided undergraduate research projects, fostering academic growth and innovation.
+    - <b>Event Organization</b> - Organized seminars, workshops, and conferences to enhance the academic experience and promote knowledge sharing.
+
+- company:
+    name: LIS Nepal Pvt. Ltd.
+    url: "https://lisnepal.com.np/"
+    location: Lalitpur, Nepal
+    logo: /images/sections/experiences/lis_logo.jpeg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+  positions:
+  - designation: Software Engineering Intern
+    start: Jan 2022
+    end: Apr 2022
+    responsibilities:
+    - <b>ETL Development</b> - Led the ETL process, creating extraction, transformation, and loading scripts to transfer data from source to target.
+    - <b>Data Validation</b> - Conducted end-to-end validation of transformed data using SQL queries in Snowflake.
+    - <b>System Management</b> - Managed batch scheduling and documented the entire ETL system.
+
+- company:
+    name: Bottle Technology Pvt. Ltd.
+    url: "https://www.linkedin.com/company/bottle-technology/"
+    location: Lalitpur, Nepal
+    logo: /images/sections/experiences/bottle_technology_logo.jpeg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+  positions:
+  - designation: Associate Machine Learning Engineer
+    start: Sept 2020
+    end: Jan 2021
+    responsibilities:
+    - <b>Project Planning</b> - Designed a customer size-finding tool for a clothing store, collaborating with stakeholders and gathering requirements.
+    - <b>OCR Development</b> - Experimented with YOLO v2 and OCR for Devanagari characters to automate measurement extraction from bills, enhancing data adaptability.
+    - <b>Machine Learning</b> - Created and optimized a model to predict clothing sizes from body measurements, reducing prediction errors.
