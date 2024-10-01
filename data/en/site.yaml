@@ -1,3 +1,14 @@
+customMenus:
+- name: My Story
+  url: /posts
+  hideFromNavbar: false
+  showOnFooter: true
+
+- name: Reading List
+  url: /posts
+  hideFromNavbar: false
+  showOnFooter: true
+
 # Copyright Notice
 copyright: © 2024 Copyright.
 

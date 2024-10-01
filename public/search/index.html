@@ -20,7 +20,7 @@ No content shown here is rendered, all content is based in the template layouts/
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs and mark.js
 Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [“HTML”, “JSON”] ```">
-  <meta property="og:locale" content="en">
+  <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="search">
     <meta property="article:published_time" content="2010-06-08T08:06:25+06:00">
@@ -87,6 +87,8 @@ Initial setup Search depends on additional output content type of JSON in config
 
 
 
+
+  
 
 
 
@@ -163,7 +165,49 @@ Initial setup Search depends on additional output content type of JSON in config
         
         
         
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/posts">My Corner</a>
+              </li>
+            
         
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/posts">Reading List</a>
+              </li>
+            
+        
+        
+        
+          
+
+
+
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+  
+</div>
+</li>
+
         
       </ul>
     </div>
@@ -178,8 +222,6 @@ Initial setup Search depends on additional output content type of JSON in config
       
       
   
-  
-    
   
 
   <section class="sidebar-section" id="sidebar-section">
@@ -271,6 +313,8 @@ Initial setup Search depends on additional output content type of JSON in config
 
   
   
+    
+  
 
   
   
@@ -337,6 +381,18 @@ Initial setup Search depends on additional output content type of JSON in config
               
             
               
+                
+                    <li class="nav-item">
+                      <a class="smooth-scroll" href="/posts">My Corner</a>
+                    </li>
+                
+              
+                
+                    <li class="nav-item">
+                      <a class="smooth-scroll" href="/posts">Reading List</a>
+                    </li>
+                
+              
             
           </ul>
           
@@ -374,22 +430,6 @@ Initial setup Search depends on additional output content type of JSON in config
         
         
         
-          
-          <div class="col-md-4 col-sm-12">
-            <p>Stay up to date with email notification</p>
-            
-              <form method='post' action='https://blogtrottr.com'>
-              <div class="form-group">
-              <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
-              <input type='hidden' name='btr_url' value='http://localhost:1313//index.xml' />
-              <input type='hidden' name='schedule_type' value='1' />
-              <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
-              <button type="submit" class="btn btn-info"> Submit </button>
-              </div>
-              </form>
-            
-          </div>
-        
       </div>
     </div>
     
@@ -419,7 +459,7 @@ Initial setup Search depends on additional output content type of JSON in config
   </footer>
 
 
-    <script src="/application.f9984fe7934aabcd16fe57e52ddc4167fbf57cc45289989429cccb69c17bcc3b.js" integrity="sha256-&#43;ZhP55NKq80W/lflLdxBZ/v1fMRSiZiUKczLacF7zDs=" defer></script>
+    <script src="/application.e64fd8974559bf04a4ed83c4f0b1fb12c4c28b4863f95e31ab6221ef1a68b1bf.js" integrity="sha256-5k/Yl0VZvwSk7YPE8LH7EsTCi0hj&#43;V4xq2Ih7xposb8=" defer></script>
 
 
     
