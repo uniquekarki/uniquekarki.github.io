@@ -1,0 +1,47 @@
+# section information
+section:
+  name: Research
+  id: research
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Florida State University
+    url: "https://www.fsu.edu/"
+    location: Tallahassee, Florida
+    logo: /images/sections/education/fsu.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
+    # company overview
+  positions:
+  - designation: Remote Research Intern
+    start: Aug 2024
+    end: Present
+    responsibilities:
+    - <b>Under the guidance of Professor Yushun Dong</b> - Contributed to research on Graph Neural Networks (GNNs) with a focus on innovative security techniques like watermarking.
+    - <b>Advanced GNN Research</b> - Worked on implementing and testing models to explore methods for safeguarding GNNs.
+    - <b>Collaboration and Reporting</b> - Provided regular updates to Professor Dong, discussing research progress and potential improvements.
+    - <b>Open-Source Contribution</b> - Actively working on releasing an open-source library focused on enhancing the security of GNN models.
+
+- company:
+    name: Kathmandu University
+    url: "https://ku.edu.np/"
+    location: Dhulikhel, Nepal
+    logo: /images/sections/education/ku.png
+    overview: Presented findings - <a href="files/slide_ann_ga.pdf" target="_blank">National Conference On Mathematics And Its Application - NCMA 2022</a> </br> <a href="files/Research_paper.pdf" target="_blank">Research Paper</a>
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+  positions:
+  - designation: Researcher
+    start: Aug 2021
+    end: Present
+    responsibilities:
+    - <b>Research Collaboration</b> - Worked with the Department of Biotechnology at Kathmandu University to model experimental lactic acid datasets, applying machine learning techniques to derive meaningful insights.
+    - <b>Model Optimization</b> - Benchmarked various ML models, including Neural Networks and Random Forest, to evaluate their performance on the lactic acid dataset and multivariate functions.
+    - <b>Meta-heuristic Optimization</b> - Implemented Particle Swarm and Genetic Algorithms to optimize complex multivariate functions, ensuring efficient performance across models.
+    - <b>Python Package Development</b> - Created and released a Python package, evolutionpy, to streamline the implementation of meta-heuristic algorithms for optimization tasks.
