@@ -1,49 +1,44 @@
-name: Deploy to Github Pages
+name: Merge to main workflows
 
+# run when a commit is pushed to "source" branch
 on:
   push:
     branches:
-      - main
+    - main
 
 jobs:
-  deploy:
+  deploy-to-gh-pages:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+    # checkout to the commit that has been pushed
+    - uses: actions/checkout@v4
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: 'latest'
-          extended: true
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v3.0.0
+      with:
+        hugo-version: 'latest'
+        extended: true
 
-      - name: Update Hugo Modules
-        run: hugo mod tidy
+    - name: Update Hugo Modules
+      run: hugo mod tidy
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
+    - name: Setup Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: 18
 
-      - name: Install node modules
-        run: |
-          hugo mod npm pack
-          npm install        
+    - name: Install node modules
+      run: |
+        hugo mod npm pack
+        npm install
 
-      - name: Build
-        run: hugo --minify
+    - name: Build
+      run: hugo --minify
 
-      - name: List contents of public directory (debug step)
-        run: ls -al ./public
-
-      - name: Configure Git
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./public
+    # push the generated content into the `gh-pages` branch.
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v4.0.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages
+        publish_dir: ./public

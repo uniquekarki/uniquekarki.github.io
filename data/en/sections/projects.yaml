@@ -1,0 +1,48 @@
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+projects:
+- name: Vamana
+  role: Owner
+  timeline: "Sept 2024"
+  repo: https://github.com/uniquekarki/Vamana
+  summary: A proximity graph-based approach for fast and scalable nearest neighbor search in high-dimension.
+  tags: ["graph"]
+
+- name: PDFInsight
+  role: Owner
+  timeline: "Aug 2024"
+  repo: https://github.com/uniquekarki/PDFInsight
+  summary: A PDF summarization tool that generates concise summaries of lengthy PDF documents.
+  tags: ["NLP", "LLM"]
+
+- name: Image-Filtering-Enhancement
+  role: Owner
+  timeline: "March 2024"
+  repo: https://github.com/uniquekarki/Image-Filtering-Enhancement
+  summary: Code for implementing basic image filtering and enhancement techniques using Python and OpenCV.
+  tags: ["Image Processing", "OpenCV"]
+
+- name: Watermark_GNN
+  role: Owner
+  timeline: "Sept 2024"
+  repo: https://github.com/uniquekarki/Watermark_GNN
+  summary: A watermarking graph technique that secures graph neural networks by verifying model integrity against compromises.
+  tags: ["GNN", "ER-Graph"]
+
+- name: CryptoKeeperCLI
+  role: Owner
+  timeline: "Feb 2024"
+  repo: https://github.com/uniquekarki/CryptoKeeperCLI
+  summary: A Python-based command line interfaced(CLI) password manager that encrypts and manages passwords.
+  tags: ["Security", "Encryption"]
+
+- name: Algorithm-Implementation
+  role: Owner
+  timeline: "August 2021"
+  repo: https://github.com/uniquekarki/CryptoKeeperCLI
+  summary: Implementation of various data structure and algorithms in Python. My attempt to revise DSA from second year undergrad.
+  tags: ["Python", "Data Structure", "Algorithms"]
