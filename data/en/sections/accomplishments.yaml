@@ -1,0 +1,44 @@
+# section information
+section:
+  name: Accomplishments
+  id: accomplishments
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+- name: Data Analysis with Python
+  timeline: "May 2020"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: An online non-credit course authorized by IBM and offered through Coursera.
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/7JPKM8GRJPSR"
+
+- name: Machine Learning
+  timeline: "Apr 2020"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: An online non-credit course authorized by Stanford University and offered through Coursera.
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/E2GFHC5CQECX"
+
+- name: Data Visualization with Python
+  timeline: "Apr 2020"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: An online non-credit course authorized by IBM and offered through Coursera.
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/Y2KBBPR5YPU2"
+
+- name: Databases and SQL for Data Science with Python
+  timeline: "Jun 2020"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: An online non-credit course authorized by IBM and offered through Coursera.
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/FQHDMMWPHNNF"

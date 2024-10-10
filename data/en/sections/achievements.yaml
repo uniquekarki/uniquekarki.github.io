@@ -1,0 +1,24 @@
+# section information
+section:
+  name: Achievements
+  id: achievements
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Kathmandu Valley Rim 100 Miles
+  image: /images/sections/achievements/KVR_100.jpg
+  summary: Completed 100 miles of KVR.
+- title: International Olympics Committee Triathlon
+  image: /images/sections/achievements/Triathlon.jpg
+  summary: Completed Triathlon hosted on Olympic Day 2024.
+- title: St. Xavier's School Annual Band Competition
+  image: /images/sections/achievements/band_competition.jpg
+  summary: 2nd Runner Up In St. Xavier's School Annual Band Competition.
+- title: Interact Club Talent Show Winner
+  image: /images/sections/achievements/talent_show.jpg
+  summary: Won the Talent Show Hosted By The Interact Club.
