@@ -1,11 +1,11 @@
 customMenus:
 - name: My Story
-  url: /posts
+  url: /posts/my-story
   hideFromNavbar: false
   showOnFooter: true
 
 - name: Reading List
-  url: /posts
+  url: /posts/reads
   hideFromNavbar: false
   showOnFooter: true
 
