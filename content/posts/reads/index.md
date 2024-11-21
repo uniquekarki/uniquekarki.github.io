@@ -16,8 +16,7 @@ hero: reads.jpeg
 I consider myself fortunate enough to have picked up a few books that have had a pround effect on my. This page lists some of such books and also my current reads.
 
 ##### Current Reads:
-1. The Power Of Your Subconscious Mind - Joseph Murphy
-2. The Divine Comedy - Dante Alighieri
+1. The Divine Comedy - Dante Alighieri
 
 ##### Reading List:
 1. Crime and Punishment - Fyodor Dostoevsky
@@ -35,3 +34,4 @@ I consider myself fortunate enough to have picked up a few books that have had a
 13. The Metamorphosis - Franz Kafka
 14. The Great Gatsby - F. Scott Fitzgerald
 15. Harry Potter Series - J.K. Rowling
+16. The Power Of Your Subconscious Mind - Joseph Murphy

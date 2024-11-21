@@ -21,6 +21,7 @@ I was born and raised in Kathmandu as a single child, which meant my parents sho
 
 ##### Strumming Through the Years
 
+
 My love for music kicked off when my grandfather brought home a harmonium, instantly sparking my curiosity to create my own tunes. I was especially drawn to the guitar, inspired by my musically inclined uncle (thanks, maternal side!). I had the privilege of learning from some of the best in Nepal, including Mr. Sunit Kansakar from Mukti and Revival, and Mr. John Shrestha from Sabin Rai & The Pharaoh. Over the years, I’ve performed in various competitions, from cozy gatherings to larger crowds. While I’m still honing my skills, I definitely don’t shy away from the spotlight—just a little exposure therapy!
 
 ##### Pages That Left a Mark
@@ -35,3 +36,21 @@ I started running after high school, and let me tell you, it’s a love/hate rel
 I’ve always had a curious mind, and I love picking up new hobbies! A while back, I started learning French, and I’ve picked up a few phrases that usually get a laugh from French speakers. I also took up crochet, and now I often find myself getting requests to make something—honestly, I don’t mind at all! Gardening is another passion; there’s something so calming about watering my plants in the evening—it’s my little moment of zen. I’m also a fan of diving into university lectures on a variety of topics; I just love soaking up new knowledge. While some might think my pursuits are a bit all over the place, I truly believe that no skill or bit of knowledge ever goes to waste. I’m all about embracing new experiences and keeping the learning spirit alive!
 
 Looking back at my journey, I’m thankful for every experience that has shaped who I am today. I can’t wait to see what new adventures and lessons lie ahead as I continue to embrace curiosity and growth!
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+    <img src="/posts/my-story/images/img1.jpg" alt="Image 1" style="width: 30%; height: 30%; margin: 10px;"/>
+    <div style="display: flex; flex-direction: column; align-items: left;">
+      <img src="/posts/my-story/images/img2.jpg" alt="Image 2" style="width: 35%; height: 35%; margin: 10px;"/>
+      <img src="/posts/my-story/images/img4.jpg" alt="Image 4" style="width: 35%; height: 35%; margin: 10px;"/>
+    </div>
+</div>
+
+<div style="display: flex; gap: 10px;">
+  <img src="/posts/my-story/images/trail.jpeg" alt="Trail" style="width: 56%; height: 56%;"/>
+  <img src="/posts/my-story/images/tennis.jpeg" alt="Tennis" style="width: 31%; height: 31%;"/>
+</div>
+
+<div style="display: flex; justify-content: flex-start; align-items: flex-start;">
+  <img src="/posts/my-story/images/reads.jpeg" alt="Books" style="width: 35%; height: 35%; margin: 10px;"/>
+  <img src="/posts/my-story/images/garden.jpeg" alt="Garden" style="width: 20%; height: 20%; margin: 10px;"/>
+  <img src="/posts/my-story/images/cap.jpeg" alt="Cap" style="width: 35%; height: 35%; margin: 10px;"/>
+</div>
