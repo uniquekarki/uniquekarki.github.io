@@ -43,6 +43,6 @@ projects:
 - name: Algorithm-Implementation
   role: Owner
   timeline: "August 2021"
-  repo: https://github.com/uniquekarki/CryptoKeeperCLI
+  repo: https://github.com/uniquekarki/Algorithm-Implementation
   summary: Implementation of various data structure and algorithms in Python. My attempt to revise DSA from second year undergrad.
   tags: ["Python", "Data Structure", "Algorithms"]
