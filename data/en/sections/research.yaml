@@ -23,7 +23,7 @@ experiences:
     start: Aug 2024
     end: Present
     responsibilities:
-    - <b>Under the guidance of Professor Yushun Dong</b> - Contributed to research on Graph Neural Networks (GNNs) with a focus on innovative security techniques like watermarking.
+    - <b>Under the guidance of Professor Yushun Dong</b> - Contributed to research on Graph Neural Networks (GNNs) with a focus on innovative security techniques like watermarking and machine unlearning.
     - <b>Advanced GNN Research</b> - Worked on implementing and testing models to explore methods for safeguarding GNNs.
     - <b>Collaboration and Reporting</b> - Provided regular updates to Professor Dong, discussing research progress and potential improvements.
     - <b>Open-Source Contribution</b> - Actively working on releasing an open-source library focused on enhancing the security of GNN models.
