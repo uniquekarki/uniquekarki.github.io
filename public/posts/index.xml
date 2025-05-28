@@ -6,13 +6,20 @@
     <description>Recent content in Posts on Unique Karki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Dec 2024 08:06:25 +0600</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>2024 - A Year in Recap</title>
-      <link>http://localhost:1313/posts/year-recap/</link>
-      <pubDate>Thu, 26 Dec 2024 08:06:25 +0600</pubDate>
+    <lastBuildDate>Wed, 28 May 2025 08:06:25 +0600</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>30 Day Challenge</title>
+      <link>http://localhost:1313/posts/30-day-challenge/</link>
+      <pubDate>Wed, 28 May 2025 08:06:25 +0600</pubDate>
       
-      <guid>http://localhost:1313/posts/year-recap/</guid>
-      <description>&lt;h3 id=&#34;coming-soon&#34;&gt;Coming Soon&amp;hellip;&lt;/h3&gt;</description>
+      <guid>http://localhost:1313/posts/30-day-challenge/</guid>
+      <description>&lt;p&gt;After the successful completion of &lt;a href=&#34;https://www.tiktok.com/@karki_nick/video/7508944110640762128&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;30 day running challenge&lt;/a&gt;, I wanted something similar in the technical realm. The main goal of this challenge is consistency in my work. So I will be posting log for each day which may include the papers I read, the ideas I implemented; all things work.&lt;/p&gt;
+&lt;p&gt;The rules of this challenge:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;1 hour personal project block: Polish coding skills and work on personal projects.&lt;/li&gt;
+&lt;li&gt;1 hour research block: Work on research project.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Starts - May 28, 2025&lt;/br&gt;
+Ends - June 26, 2025&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -56,15 +63,6 @@
 &lt;li&gt;Harry Potter Series - J.K. Rowling&lt;/li&gt;
 &lt;li&gt;The Power Of Your Subconscious Mind - Joseph Murphy&lt;/li&gt;
 &lt;/ol&gt;</description>
-    </item>
-    
-    <item>
-      <title>Vamana</title>
-      <link>http://localhost:1313/posts/technical-post/vamana/</link>
-      <pubDate>Fri, 11 Oct 2024 08:06:25 +0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/technical-post/vamana/</guid>
-      <description>&lt;h3 id=&#34;first-blog-post-coming-soon&#34;&gt;First Blog Post Coming Soon&amp;hellip;&lt;/h3&gt;</description>
     </item>
     
     

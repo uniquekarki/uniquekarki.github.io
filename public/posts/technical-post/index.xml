@@ -5,16 +5,6 @@
     <link>http://localhost:1313/posts/technical-post/</link>
     <description>Recent content in Technical Post on Unique Karki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 11 Oct 2024 08:06:25 +0600</lastBuildDate><atom:link href="http://localhost:1313/posts/technical-post/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Vamana</title>
-      <link>http://localhost:1313/posts/technical-post/vamana/</link>
-      <pubDate>Fri, 11 Oct 2024 08:06:25 +0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/technical-post/vamana/</guid>
-      <description>&lt;h3 id=&#34;first-blog-post-coming-soon&#34;&gt;First Blog Post Coming Soon&amp;hellip;&lt;/h3&gt;</description>
-    </item>
-    
-    
+    <language>en-us</language><atom:link href="http://localhost:1313/posts/technical-post/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
