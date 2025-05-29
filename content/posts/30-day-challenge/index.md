@@ -37,3 +37,12 @@ Ends - June 26, 2025
 2. Skimmed through my notes.
 
 ---
+
+### Day 2
+
+#### Personal Project:
+1. Implemented forward pass and error calculation for a single perceptron.
+
+#### Research Project:
+
+---
