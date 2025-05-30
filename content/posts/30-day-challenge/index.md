@@ -44,5 +44,16 @@ Ends - June 26, 2025
 1. Implemented forward pass and error calculation for a single perceptron.
 
 #### Research Project:
+1. Planned out the implementation.
+
+---
+
+### Day 3
+
+#### Personal Project:
+1. Fixed forward pass bugs.
+
+#### Research Project:
+1. Researched the implementation of GCN based architecture for graph generation.
 
 ---
