@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <title>Reading List</title>
+    <title>BoW Vs. TF-IDF</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -28,7 +28,7 @@
 <meta property="og:url" content="http://localhost:1313/">
 
     
-<meta name="description" content="Reading List" />
+<meta name="description" content="BoW Vs. TF-IDF" />
 
 
 
@@ -309,9 +309,12 @@ document.documentElement.setAttribute('data-theme', theme)
   
   
   
+    
+    
+  
   
     
-    <li><a class=" list-link" href="/posts/bow-vs-tfidf/" title="BoW Vs. TF-IDF">BoW Vs. TF-IDF</a></li>
+    <li><a class="active list-link" href="/posts/bow-vs-tfidf/" title="BoW Vs. TF-IDF">BoW Vs. TF-IDF</a></li>
   
 
   
@@ -327,12 +330,9 @@ document.documentElement.setAttribute('data-theme', theme)
   
   
   
-    
-    
-  
   
     
-    <li><a class="active list-link" href="/posts/reads/" title="Reading List">Reading List</a></li>
+    <li><a class=" list-link" href="/posts/reads/" title="Reading List">Reading List</a></li>
   
 
   
@@ -359,7 +359,7 @@ document.documentElement.setAttribute('data-theme', theme)
   <div class="content">
     <div class="container p-0 read-area">
       
-      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/posts/reads/reads.jpeg);'>
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/default-hero.jpg);'>
       </div>
 
       
@@ -373,42 +373,102 @@ document.documentElement.setAttribute('data-theme', theme)
         
 
         <div class="title">
-          <h1>Reading List</h1>
+          <h1>BoW Vs. TF-IDF</h1>
         </div>
 
         
 
         
         <div class="post-content" id="post-content">
-          <p>I consider myself fortunate enough to have picked up a few books that have had a pround effect on my. This page lists some of such books and also my current reads.</p>
-<h5 id="current-reads">Current Reads:</h5>
+          <p>We humans read words effortlessly, but computers only understand numbers. So how do we bridge that gap? That’s where methods like Bag-of-Words (BoW) and TF-IDF come in.</p>
+<h2 id="what-problem-are-we-solving">What problem are we solving?</h2>
+<p>When we read a piece of text, the words seem never-ending with an infinite vocabulary. The problem with raw text is that it is messy, unstructured, and consists of a multitude of words. We need a way to represent raw text in numerical form such that the data is structured and easier to process. This process is known as vectorization, and we’ll discuss it.</p>
+<h2 id="bag-of-words-bow">Bag-of-Words (BoW)</h2>
+<p>Bag-of-Words (BoW) is one of the fundamental ways of converting text to numbers. In simple terms, it keeps count of the occurrence of each unique word in a document. It is used for its simplicity, intuitiveness, and also its effectiveness. Let’s break it down step-by-step and see how it works.</p>
+<p>Suppose you have the following sentences:</p>
+<p>“How are you?”
+“I am very good.”
+“What a lovely day.”</p>
+<h3 id="step-1">Step 1</h3>
+<p>Make a set of unique words (vocabulary)
+vocab = (how, are, you, i, am, very, good, what, a, lovely, day)
+len(vocab) = 11</p>
+<h3 id="step-2">Step 2</h3>
+<p>Initialize a zero vector of length len(vocab) for each sentence</p>
+<p>v1 = [0,0,0,0,0,0,0,0,0,0,0] <br>
+v2 = [0,0,0,0,0,0,0,0,0,0,0] <br>
+v3 = [0,0,0,0,0,0,0,0,0,0,0]</p>
+<h3 id="step-3">Step 3</h3>
+<p>Keep count of how many times a word in the vocab has occurred in the sentence, and replace the 0 with the count.</p>
+<p>v1 = [1,1,1,0,0,0,0,0,0,0,0] <br>
+v2 = [0,0,0,1,1,1,1,0,0,0,0] <br>
+v3 = [0,0,0,0,0,0,0,1,1,1,1]</p>
+<p>Now you have successfully converted the sentence to numerical form using BoW. Notice how each sentence is now just a row of numbers; no meaning, no grammar, just counts.</p>
+<p>But, easy as it looks, there are many drawbacks to BoW.</p>
+<h3 id="drawbacks">Drawbacks:</h3>
 <ol>
-<li>The Brothers Karamazov - Fyodor Dostoevsky</li>
+<li>All of the words are given the same priority.</li>
+<li>Lots of filler words, such as “a”, “am”, “the”, etc., make the vector size large.</li>
+<li>There is no priority given to rare words in the sentences.</li>
 </ol>
-<h5 id="reading-list">Reading List:</h5>
+<p>But BoW isn’t perfect. That’s where TF-IDF comes in — it adds some ‘common sense’ to word importance.</p>
+<h2 id="term-frequency---inverse-document-frequencytf-idf">Term Frequency - Inverse Document Frequency(TF-IDF)</h2>
+<p>This technique of vectorization measures the importance of different words in a document. To understand it, let’s break down each term from the name itself.</p>
+<p>TF = word frequency in one document <br>
+DF = how many documents contain the word <br>
+IDF = how rare a word is across all documents <br>
+TF-IDF = TF × IDF <br></p>
+<h3 id="term-frequency-tf">Term Frequency (TF)</h3>
+<p>t -&gt; term/word <br>
+d -&gt; document/page <br>
+N -&gt; Number of document/page <br></p>
+<p>tf(t,d)=count of t in d/Total no. of words in d</p>
+<p>This reflects how frequently a word appears within a text</p>
+<h3 id="document-frequency-df">Document Frequency (DF)</h3>
+<p>df(t) = No. of d where t has occured</p>
+<p>This reflects the number of documents/pages in which the term/word appears.</p>
+<h3 id="inverse-document-frequency-idf">Inverse Document Frequency (IDF)</h3>
+<p>The main drawback of Term-Frequency is that it considers all of the words as equally important</p>
+<p>The most occurring words, such as a, an, the, etc., should be weighed down and rare words should be scaled up.</p>
+<p>idf(t) =N/df</p>
+<p>Problems with the above formula:</p>
 <ol>
-<li>Crime and Punishment - Fyodor Dostoevsky</li>
-<li>The Idiot - Fyodor Dostoevsky</li>
-<li>Night - Elie Wiesel</li>
-<li>Man&rsquo;s Search for Meaning - Viktor Frankl</li>
-<li>Steve Jobs - Walter Isaacson</li>
-<li>The Five People You Meet in Heaven - Mitch Albom</li>
-<li>Tuesdays with Morrie - Mitch Albom</li>
-<li>1984 - George Orwell</li>
-<li>Animal Farm - George Orwell</li>
-<li>The Book Thief - Markus Zusak</li>
-<li>The Art of War - Sun Tzu</li>
-<li>How to Win Friends and Influence People - Dale Carnegie</li>
-<li>The Metamorphosis - Franz Kafka</li>
-<li>The Great Gatsby - F. Scott Fitzgerald</li>
-<li>Harry Potter Series - J.K. Rowling</li>
-<li>The Power Of Your Subconscious Mind - Joseph Murphy</li>
+<li>If N becomes very high, idf explodes</li>
+<li>If df = 0, idf becomes invalid</li>
 </ol>
-<h5 id="dnf-list-were-only-humans-afterall">DNF List: (We&rsquo;re only humans afterall)</h5>
-<ol>
-<li>Thus Spoke Zarathustra - Friedrich Nietzsche</li>
-<li>The Divine Comedy - Dante Alighieri</li>
-</ol>
+<p>The updated formula for idf becomes,
+idf(t) =log(N/(df + 1))</p>
+<h3 id="tf-idf">TF-IDF</h3>
+<p>Incorporating all of the above, we get,
+tf-idf(t) = tf(t,d) x log(N/(df + 1))</p>
+<p>Here’s a side-by-side view to make the differences clear.</p>
+<table>
+  <thead>
+      <tr>
+          <th>BoW</th>
+          <th>TF-IDF</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Treats all words equally</td>
+          <td>Adjusts word importance based on word frequency and rarity across documents</td>
+      </tr>
+      <tr>
+          <td>Stopwords reduce the meaningfulness of the model</td>
+          <td>Dilutes the importance of stopwords</td>
+      </tr>
+      <tr>
+          <td>Document length affects word frequency</td>
+          <td>Normalizes the effect of document length</td>
+      </tr>
+      <tr>
+          <td>Simple to implement, but creates a high-dimensional sparse vector</td>
+          <td>More complex, provides a more informative representation</td>
+      </tr>
+  </tbody>
+</table>
+<p>BoW and TF-IDF may look old-school compared to embeddings like BERT, but they’re still powerful starting points. Personally, I find that learning these simple methods makes the modern ones much less of a black box.</p>
 
         </div>
 
@@ -426,7 +486,7 @@ document.documentElement.setAttribute('data-theme', theme)
           
           <div class="col-md-6 btn-improve-page">
              
-               <a href="https://github.com/uniquekarki/uniquekarki.github.io/edit/main/content/posts/reads/index.md" title="Improve this page" target="_blank" rel="noopener">
+               <a href="https://github.com/uniquekarki/uniquekarki.github.io/edit/main/content/posts/bow-vs-tfidf/index.md" title="Improve this page" target="_blank" rel="noopener">
             
                 <i class="fas fa-code-branch"></i>
                 Improve this page
@@ -457,14 +517,14 @@ document.documentElement.setAttribute('data-theme', theme)
   
 
   
+    
+    
+  
   
 
   
   
 
-  
-    
-    
   
   
 
@@ -475,9 +535,9 @@ document.documentElement.setAttribute('data-theme', theme)
 <div class="row next-prev-navigator">
   
     <div class="col-md-6 previous-article">
-      <a href="/posts/my-story/" title="My Story" class="btn filled-button">
+      <a href="/posts/30-day-challenge/" title="30 Day Challenge" class="btn filled-button">
         <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
-        <div class="next-prev-text">My Story</div>
+        <div class="next-prev-text">30 Day Challenge</div>
       </a>
     </div>
   
@@ -487,9 +547,9 @@ document.documentElement.setAttribute('data-theme', theme)
         
       
       <div class="col-md-6 next-article">
-        <a href="/posts/technical-post/" title="Technical Post" class="btn filled-button">
+        <a href="/posts/my-story/" title="My Story" class="btn filled-button">
           <div>Next <i class="fas fa-chevron-circle-right"></i></div>
-          <div class="next-prev-text">Technical Post</div>
+          <div class="next-prev-text">My Story</div>
         </a>
       </div>
     
@@ -523,19 +583,21 @@ document.documentElement.setAttribute('data-theme', theme)
       <div class="toc">
         <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#what-problem-are-we-solving">What problem are we solving?</a></li>
+    <li><a href="#bag-of-words-bow">Bag-of-Words (BoW)</a>
       <ul>
-        <li>
-          <ul>
-            <li>
-              <ul>
-                <li><a href="#current-reads">Current Reads:</a></li>
-                <li><a href="#reading-list">Reading List:</a></li>
-                <li><a href="#dnf-list-were-only-humans-afterall">DNF List: (We&rsquo;re only humans afterall)</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
+        <li><a href="#step-1">Step 1</a></li>
+        <li><a href="#step-2">Step 2</a></li>
+        <li><a href="#step-3">Step 3</a></li>
+        <li><a href="#drawbacks">Drawbacks:</a></li>
+      </ul>
+    </li>
+    <li><a href="#term-frequency---inverse-document-frequencytf-idf">Term Frequency - Inverse Document Frequency(TF-IDF)</a>
+      <ul>
+        <li><a href="#term-frequency-tf">Term Frequency (TF)</a></li>
+        <li><a href="#document-frequency-df">Document Frequency (DF)</a></li>
+        <li><a href="#inverse-document-frequency-idf">Inverse Document Frequency (IDF)</a></li>
+        <li><a href="#tf-idf">TF-IDF</a></li>
       </ul>
     </li>
   </ul>

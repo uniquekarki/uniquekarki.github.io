@@ -23,6 +23,17 @@ Ends - June 26, 2025&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>BoW Vs. TF-IDF</title>
+      <link>http://localhost:1313/posts/bow-vs-tfidf/</link>
+      <pubDate>Fri, 11 Oct 2024 08:06:25 +0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/bow-vs-tfidf/</guid>
+      <description>&lt;p&gt;We humans read words effortlessly, but computers only understand numbers. So how do we bridge that gap? That’s where methods like Bag-of-Words (BoW) and TF-IDF come in.&lt;/p&gt;
+&lt;h2 id=&#34;what-problem-are-we-solving&#34;&gt;What problem are we solving?&lt;/h2&gt;
+&lt;p&gt;When we read a piece of text, the words seem never-ending with an infinite vocabulary. The problem with raw text is that it is messy, unstructured, and consists of a multitude of words. We need a way to represent raw text in numerical form such that the data is structured and easier to process. This process is known as vectorization, and we’ll discuss it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>My Story</title>
       <link>http://localhost:1313/posts/my-story/</link>
       <pubDate>Fri, 11 Oct 2024 08:06:25 +0600</pubDate>
@@ -42,7 +53,7 @@ Ends - June 26, 2025&lt;/p&gt;</description>
       <description>&lt;p&gt;I consider myself fortunate enough to have picked up a few books that have had a pround effect on my. This page lists some of such books and also my current reads.&lt;/p&gt;
 &lt;h5 id=&#34;current-reads&#34;&gt;Current Reads:&lt;/h5&gt;
 &lt;ol&gt;
-&lt;li&gt;The Divine Comedy - Dante Alighieri&lt;/li&gt;
+&lt;li&gt;The Brothers Karamazov - Fyodor Dostoevsky&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h5 id=&#34;reading-list&#34;&gt;Reading List:&lt;/h5&gt;
 &lt;ol&gt;
@@ -62,6 +73,11 @@ Ends - June 26, 2025&lt;/p&gt;</description>
 &lt;li&gt;The Great Gatsby - F. Scott Fitzgerald&lt;/li&gt;
 &lt;li&gt;Harry Potter Series - J.K. Rowling&lt;/li&gt;
 &lt;li&gt;The Power Of Your Subconscious Mind - Joseph Murphy&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;dnf-list-were-only-humans-afterall&#34;&gt;DNF List: (We&amp;rsquo;re only humans afterall)&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;Thus Spoke Zarathustra - Friedrich Nietzsche&lt;/li&gt;
+&lt;li&gt;The Divine Comedy - Dante Alighieri&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
     
