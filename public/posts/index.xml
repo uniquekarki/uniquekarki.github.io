@@ -6,7 +6,38 @@
     <description>Recent content in Posts on Unique Karki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 May 2025 08:06:25 +0600</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Wed, 17 Sep 2025 08:06:25 +0600</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Docker</title>
+      <link>http://localhost:1313/posts/docker/</link>
+      <pubDate>Wed, 17 Sep 2025 08:06:25 +0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/docker/</guid>
+      <description>&lt;p&gt;This is a collection of personal notes and references that I have gathered while learning Docker.&lt;/p&gt;
+&lt;h1 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#version&#34;&gt;Version&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#list-containers&#34;&gt;List Containers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#remove-containers&#34;&gt;Remove Containers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#list-images&#34;&gt;List Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#remove-images&#34;&gt;Remove Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#run-container&#34;&gt;Run Container&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;version&#34;&gt;Version&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;sudo docker version&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;list-containers&#34;&gt;List Containers&lt;/h2&gt;
+&lt;p&gt;To list the active containers &lt;/br&gt;
+&lt;code&gt;sudo docker ps&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To list all the containers including the inactive ones &lt;/br&gt;
+&lt;code&gt;sudo docker ps -a&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;remove-containers&#34;&gt;Remove Containers&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;sudo docker rm &amp;lt;container-name/id&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;list-images&#34;&gt;List Images&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;sudo docker images&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;remove-images&#34;&gt;Remove Images&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;sudo docker rmi &amp;lt;image-name&amp;gt;&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>30 Day Challenge</title>
       <link>http://localhost:1313/posts/30-day-challenge/</link>
       <pubDate>Wed, 28 May 2025 08:06:25 +0600</pubDate>
