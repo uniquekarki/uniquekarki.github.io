@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Unique Karki</title><link>https://uniquekarki.github.io/posts/</link><description>Recent content in Posts on Unique Karki</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 28 May 2025 08:06:25 +0600</lastBuildDate><atom:link href="https://uniquekarki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>30 Day Challenge</title><link>https://uniquekarki.github.io/posts/30-day-challenge/</link><pubDate>Wed, 28 May 2025 08:06:25 +0600</pubDate><guid>https://uniquekarki.github.io/posts/30-day-challenge/</guid><description>&lt;p>After the successful completion of &lt;a href="https://www.tiktok.com/@karki_nick/video/7508944110640762128" target="_blank" rel="noopener">30 day running challenge&lt;/a>, I wanted something similar in the technical realm. The main goal of this challenge is consistency in my work. So I will be posting log for each day which may include the papers I read, the ideas I implemented; all things work.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Unique Karki</title><link>https://uniquekarki.github.io/posts/</link><description>Recent content in Posts on Unique Karki</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 17 Sep 2025 08:06:25 +0600</lastBuildDate><atom:link href="https://uniquekarki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker</title><link>https://uniquekarki.github.io/posts/docker/</link><pubDate>Wed, 17 Sep 2025 08:06:25 +0600</pubDate><guid>https://uniquekarki.github.io/posts/docker/</guid><description>&lt;p>This is a collection of personal notes and references that I have gathered while learning Docker.&lt;/p>
+&lt;h1 id="table-of-contents">Table of Contents&lt;/h1>
+&lt;ol>
+&lt;li>&lt;a href="#version">Version&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#list-containers">List Containers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#remove-containers">Remove Containers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#list-images">List Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#remove-images">Remove Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#run-container">Run Container&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="version">Version&lt;/h2>
+&lt;p>&lt;code>sudo docker version&lt;/code>&lt;/p>
+&lt;h2 id="list-containers">List Containers&lt;/h2>
+&lt;p>To list the active containers &lt;/br>
+&lt;code>sudo docker ps&lt;/code>&lt;/p>
+&lt;p>To list all the containers including the inactive ones &lt;/br>
+&lt;code>sudo docker ps -a&lt;/code>&lt;/p>
+&lt;h2 id="remove-containers">Remove Containers&lt;/h2>
+&lt;p>&lt;code>sudo docker rm &amp;lt;container-name/id&amp;gt;&lt;/code>&lt;/p>
+&lt;h2 id="list-images">List Images&lt;/h2>
+&lt;p>&lt;code>sudo docker images&lt;/code>&lt;/p>
+&lt;h2 id="remove-images">Remove Images&lt;/h2>
+&lt;p>&lt;code>sudo docker rmi &amp;lt;image-name&amp;gt;&lt;/code>&lt;/p></description></item><item><title>30 Day Challenge</title><link>https://uniquekarki.github.io/posts/30-day-challenge/</link><pubDate>Wed, 28 May 2025 08:06:25 +0600</pubDate><guid>https://uniquekarki.github.io/posts/30-day-challenge/</guid><description>&lt;p>After the successful completion of &lt;a href="https://www.tiktok.com/@karki_nick/video/7508944110640762128" target="_blank" rel="noopener">30 day running challenge&lt;/a>, I wanted something similar in the technical realm. The main goal of this challenge is consistency in my work. So I will be posting log for each day which may include the papers I read, the ideas I implemented; all things work.&lt;/p>
 &lt;p>The rules of this challenge:&lt;/p>
 &lt;ol>
 &lt;li>1 hour personal project block: Polish coding skills and work on personal projects.&lt;/li>
