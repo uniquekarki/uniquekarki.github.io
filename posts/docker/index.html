@@ -77,21 +77,21 @@ worker:
 </code></pre><ol start=2><li>Version 2</li></ol><p>docker-compose.yaml</p><pre tabindex=0><code>version 2
 
 services:
-  redis:                                                        &lt;---------------- Name of container
-    image: redis                                                &lt;---------------- Name of image if already created
+  redis:
+    image: redis
 
   db:
     image: postgres:9.4
 
   vote:
     image: voting-app
-    ports:                                                      &lt;---------------- Port mapping for voting-app
+    ports:
       -5000:80
-    depends_on:                                                 &lt;---------------- Used to specify dependencies as voting-app depends upon redis application
+    depends_on:
       -redis
 
   result:
-    image: result-app  /  build: &lt;path-to-code-with-dockerfile&gt; &lt;--------------- Use &#39;image&#39; if image is already made else use &#39;build&#39;
+    image: result-app  /  build: &lt;path-to-code-with-dockerfile&gt;
     ports:
       -5001:80
     depends_on:
@@ -105,11 +105,11 @@ services:
 </code></pre><ol start=3><li>Suppose you want to connect specific services to a dedicated network to separate the traffic. The convention for such scenario is as given below.</li></ol><p>docker-compose.yaml</p><pre tabindex=0><code>version 2
 
 services:
-  redis:                                                        &lt;---------------- Name of container
-    image: redis                                                &lt;---------------- Name of image if already created
+  redis:
+    image: redis
 
     networks:
-      - back-end
+      - back-end                &lt;--------------- Connects redis container to &#39;back-end&#39; network
 
   db:
     image: postgres:9.4
@@ -119,39 +119,17 @@ services:
   
   vote:
     image: voting-app
-    ports:                                                      &lt;---------------- Port mapping for voting-app
+    ports:
       - 5000:80
     
-    depends_on:                                                 &lt;---------------- Used to specify dependencies as voting-app depends upon redis application
-      - redis
-    
-    networks:
-      - front-end
-      - back-end
-
-  result:
-    image: result-app  /  build: &lt;path-to-code-with-dockerfile&gt; &lt;--------------- Use &#39;image&#39; if image is already made else use &#39;build&#39;
-    ports:
-      - 5001:80
-
-    depends_on:
-      - db
-
-    networks:
-      - front-end
-      - back-end
-
-  worker:
-    image: worker
-    
     depends_on:
       - redis
-      - db
     
     networks:
+      - front-end               &lt;--------------- Connects vote container to both &#39;back-end&#39; and &#39;front-end&#39; networks
       - back-end
 
-network:
+network:                        &lt;--------------- Defines the networks 
   front-end:
   back-end:
 </code></pre></div><div class="row ps-3 pe-3"><div class="col-md-6 share-buttons"></div><div class="col-md-6 btn-improve-page"><a href=https://github.com/uniquekarki/uniquekarki.github.io/edit/main/content/posts/docker/index.md title="Improve this page" target=_blank rel=noopener><i class="fas fa-code-branch"></i>
