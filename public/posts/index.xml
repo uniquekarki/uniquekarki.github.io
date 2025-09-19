@@ -21,6 +21,14 @@
 &lt;li&gt;&lt;a href=&#34;#list-images&#34;&gt;List Images&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#remove-images&#34;&gt;Remove Images&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#run-container&#34;&gt;Run Container&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#stop-container&#34;&gt;Stop Container&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#inspect-container&#34;&gt;Inspect Container&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#docker-log&#34;&gt;Docker Log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#port-mapping&#34;&gt;Port Mapping&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#volume-mounting&#34;&gt;Volume Mounting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#creating-images&#34;&gt;Creating Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cmd-vs-entrypoint&#34;&gt;CMD VS ENTRYPOINT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#docker-compose&#34;&gt;Docker Compose&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;version&#34;&gt;Version&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;sudo docker version&lt;/code&gt;&lt;/p&gt;
@@ -28,13 +36,7 @@
 &lt;p&gt;To list the active containers &lt;/br&gt;
 &lt;code&gt;sudo docker ps&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;To list all the containers including the inactive ones &lt;/br&gt;
-&lt;code&gt;sudo docker ps -a&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;remove-containers&#34;&gt;Remove Containers&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;sudo docker rm &amp;lt;container-name/id&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;list-images&#34;&gt;List Images&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;sudo docker images&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;remove-images&#34;&gt;Remove Images&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;sudo docker rmi &amp;lt;image-name&amp;gt;&lt;/code&gt;&lt;/p&gt;</description>
+&lt;code&gt;sudo docker ps -a&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
