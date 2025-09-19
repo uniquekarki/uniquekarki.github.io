@@ -291,21 +291,21 @@ docker-compose.yaml
 version 2
 
 services:
-  redis:                                                        <---------------- Name of container
-    image: redis                                                <---------------- Name of image if already created
+  redis:
+    image: redis
 
   db:
     image: postgres:9.4
 
   vote:
     image: voting-app
-    ports:                                                      <---------------- Port mapping for voting-app
+    ports:
       -5000:80
-    depends_on:                                                 <---------------- Used to specify dependencies as voting-app depends upon redis application
+    depends_on:
       -redis
 
   result:
-    image: result-app  /  build: <path-to-code-with-dockerfile> <--------------- Use 'image' if image is already made else use 'build'
+    image: result-app  /  build: <path-to-code-with-dockerfile>
     ports:
       -5001:80
     depends_on:
@@ -327,11 +327,11 @@ docker-compose.yaml
 version 2
 
 services:
-  redis:                                                        <---------------- Name of container
-    image: redis                                                <---------------- Name of image if already created
+  redis:
+    image: redis
 
     networks:
-      - back-end
+      - back-end                <--------------- Connects redis container to 'back-end' network
 
   db:
     image: postgres:9.4
@@ -341,39 +341,17 @@ services:
   
   vote:
     image: voting-app
-    ports:                                                      <---------------- Port mapping for voting-app
+    ports:
       - 5000:80
     
-    depends_on:                                                 <---------------- Used to specify dependencies as voting-app depends upon redis application
-      - redis
-    
-    networks:
-      - front-end
-      - back-end
-
-  result:
-    image: result-app  /  build: <path-to-code-with-dockerfile> <--------------- Use 'image' if image is already made else use 'build'
-    ports:
-      - 5001:80
-
-    depends_on:
-      - db
-
-    networks:
-      - front-end
-      - back-end
-
-  worker:
-    image: worker
-    
     depends_on:
       - redis
-      - db
     
     networks:
+      - front-end               <--------------- Connects vote container to both 'back-end' and 'front-end' networks
       - back-end
 
-network:
+network:                        <--------------- Defines the networks 
   front-end:
   back-end:
 ```
