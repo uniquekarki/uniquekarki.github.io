@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Unique Karki</title>
+    <link>http://localhost:1313/posts/docker/</link>
+    <description>Recent content in Docker on Unique Karki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Oct 2025 08:06:25 +0600</lastBuildDate><atom:link href="http://localhost:1313/posts/docker/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Docker Deployment</title>
+      <link>http://localhost:1313/posts/docker/deploy/</link>
+      <pubDate>Wed, 29 Oct 2025 08:06:25 +0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/docker/deploy/</guid>
+      <description>&lt;p&gt;Hello!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Docker Introduction</title>
+      <link>http://localhost:1313/posts/docker/intro/</link>
+      <pubDate>Wed, 17 Sep 2025 08:06:25 +0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/docker/intro/</guid>
+      <description>&lt;p&gt;This is a collection of personal notes and references that I have gathered while learning Docker.&lt;/p&gt;
+&lt;h1 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#version&#34;&gt;Version&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#list-containers&#34;&gt;List Containers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#remove-containers&#34;&gt;Remove Containers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#list-images&#34;&gt;List Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#remove-images&#34;&gt;Remove Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#run-container&#34;&gt;Run Container&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#stop-container&#34;&gt;Stop Container&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#inspect-container&#34;&gt;Inspect Container&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#docker-log&#34;&gt;Docker Log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#port-mapping&#34;&gt;Port Mapping&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#volume-mounting&#34;&gt;Volume Mounting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#creating-images&#34;&gt;Creating Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cmd-vs-entrypoint&#34;&gt;CMD VS ENTRYPOINT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#docker-compose&#34;&gt;Docker Compose&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;version&#34;&gt;Version&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;sudo docker version&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;list-containers&#34;&gt;List Containers&lt;/h2&gt;
+&lt;p&gt;To list the active containers &lt;/br&gt;
+&lt;code&gt;sudo docker ps&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To list all the containers including the inactive ones &lt;/br&gt;
+&lt;code&gt;sudo docker ps -a&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>
