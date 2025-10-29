@@ -1,4 +1,4 @@
-<!doctype html><html lang=en><head><title>Docker</title><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><link rel=stylesheet href=/application.6a5cdf7499f781bae02ed80dbc345e1b18e8cf6108d1808a7d1fbbf08e5c006e.css integrity="sha256-alzfdJn3gbrgLtgNvDReGxjoz2EI0YCKfR+78I5cAG4="><meta property="og:title" content="Unique Karki"><meta property="og:type" content="website"><meta property="og:description" content="Portfolio and personal blog of Unique Karki."><meta property="og:image" content="/images/author/unique.jpeg"><meta property="og:url" content="https://uniquekarki.github.io/"><meta name=description content="Docker"><script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">let theme=localStorage.getItem("theme-scheme")||localStorage.getItem("darkmode:color-scheme")||"light";theme==="system"&&(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?theme="dark":theme="light"),document.documentElement.setAttribute("data-theme",theme)</script></head><body class="type-posts kind-page" data-bs-spy=scroll data-bs-target=#TableOfContents data-bs-offset=80><div class="container-fluid bg-secondary wrapper"><nav class="navbar navbar-expand-xl top-navbar shadow" id=top-navbar><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button>
+<!doctype html><html lang=en><head><title>Docker</title><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><link rel=stylesheet href=/application.6a5cdf7499f781bae02ed80dbc345e1b18e8cf6108d1808a7d1fbbf08e5c006e.css integrity="sha256-alzfdJn3gbrgLtgNvDReGxjoz2EI0YCKfR+78I5cAG4="><link rel=alternate type=application/rss+xml href=https://uniquekarki.github.io/posts/docker/index.xml title="Unique Karki"><meta property="og:title" content="Unique Karki"><meta property="og:type" content="website"><meta property="og:description" content="Portfolio and personal blog of Unique Karki."><meta property="og:image" content="/images/author/unique.jpeg"><meta property="og:url" content="https://uniquekarki.github.io/"><script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">let theme=localStorage.getItem("theme-scheme")||localStorage.getItem("darkmode:color-scheme")||"light";theme==="system"&&(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?theme="dark":theme="light"),document.documentElement.setAttribute("data-theme",theme)</script></head><body class="type-posts kind-section" data-bs-spy=scroll data-bs-target=#TableOfContents data-bs-offset=80><div class="container-fluid bg-secondary wrapper"><nav class="navbar navbar-expand-xl top-navbar shadow" id=top-navbar><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button>
 <i data-feather=sidebar></i>
 </button>
 <a class=navbar-brand href=/>Unique Karki</a>
@@ -7,132 +7,11 @@
 <a class=dropdown-item href=/#accomplishments>Accomplishments</a>
 <a class=dropdown-item href=/#achievements>Achievements</a></div></li><div id=top-navbar-divider></div><li class=nav-item><a class=nav-link id=blog-link href=/posts>Posts</a></li><li class=nav-item><a class=nav-link href=/posts/my-story>My Story</a></li><li class=nav-item><a class=nav-link href=/posts/reads>Reading List</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# id=themeSelector role=button data-bs-toggle=dropdown aria-haspopup=true aria-expanded=false><img id=navbar-theme-icon-svg class=theme-icon src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme"></a><div id=themeMenu class="dropdown-menu dropdown-menu-icons-only" aria-labelledby=themeSelector><a class="dropdown-item nav-link" href=# data-scheme=light><img class=theme-icon src=/icons/sun-svgrepo-com.svg width=20 alt="Light Theme">
 </a><a class="dropdown-item nav-link" href=# data-scheme=dark><img class=theme-icon src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme">
-</a><a class="dropdown-item nav-link" href=# data-scheme=system><img class=theme-icon src=/icons/computer-svgrepo-com.svg width=20 alt="System Theme"></a></div></li></ul></div></div></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/search><input type=text name=keyword placeholder=Search data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/posts/ data-filter=all>Posts</a></li><div class=subtree><li><a class=list-link href=/posts/30-day-challenge/ title="30 Day Challenge">30 Day Challenge</a></li><li><a class=list-link href=/posts/bow-vs-tfidf/ title="BoW Vs. TF-IDF">BoW Vs. TF-IDF</a></li><li><a class="active list-link" href=/posts/docker/ title=Docker>Docker</a></li><li><a class=list-link href=/posts/my-story/ title="My Story">My Story</a></li><li><a class=list-link href=/posts/reads/ title="Reading List">Reading List</a></li><li><a class=list-link href=/posts/technical-post/ title="Technical Post">Technical Post</a></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class=content><div class="container p-0 read-area"><div class="hero-area col-sm-12" id=hero-area style=background-image:url(/images/default-hero.jpg)></div><div class=page-content><div class="author-profile ms-auto align-self-lg-center"><img class=rounded-circle src=/images/author/unique_hu_1e8be889d16862f8.jpeg alt="Author Image"><h5 class=author-name>Unique Karki</h5><p class=text-muted>Wednesday, September 17, 2025</p></div><div class=title><h1>Docker</h1></div><div class=post-content id=post-content><p>This is a collection of personal notes and references that I have gathered while learning Docker.</p><h1 id=table-of-contents>Table of Contents</h1><ol><li><a href=#version>Version</a></li><li><a href=#list-containers>List Containers</a></li><li><a href=#remove-containers>Remove Containers</a></li><li><a href=#list-images>List Images</a></li><li><a href=#remove-images>Remove Images</a></li><li><a href=#run-container>Run Container</a></li><li><a href=#stop-container>Stop Container</a></li><li><a href=#inspect-container>Inspect Container</a></li><li><a href=#docker-log>Docker Log</a></li><li><a href=#port-mapping>Port Mapping</a></li><li><a href=#volume-mounting>Volume Mounting</a></li><li><a href=#creating-images>Creating Images</a></li><li><a href=#cmd-vs-entrypoint>CMD VS ENTRYPOINT</a></li><li><a href=#docker-compose>Docker Compose</a></li></ol><h2 id=version>Version</h2><p><code>sudo docker version</code></p><h2 id=list-containers>List Containers</h2><p>To list the active containers</br><code>sudo docker ps</code></p><p>To list all the containers including the inactive ones</br><code>sudo docker ps -a</code></p><h2 id=remove-containers>Remove Containers</h2><p><code>sudo docker rm &lt;container-name/id></code></p><h2 id=list-images>List Images</h2><p><code>sudo docker images</code></p><h2 id=remove-images>Remove Images</h2><p><code>sudo docker rmi &lt;image-name></code></p><h2 id=run-container>Run Container</h2><ol><li><p><code>sudo docker run &lt;image-name></code></p><p>The above command does the following:</p><ul><li>Pulls the image from docker registry (DockerHub or private ones), if not available locally</li><li>Creates a container</li><li>Starts the container</li></ul></li><li><p><code>sudo docker run -d &lt;image-name></code></p><p>This runs the container in detach mode which means that the terminal is free to use for other commands (maybe starting another container)</p></li><li><p><code>sudo docker run -it &lt;image-name></code></p><ul><li><p>-i Tag</br>This tag keeps the STDIN (Standard input) open so that you can communicate with the container via. terminal</p></li><li><p>-t Tag</br>This tag allocates a pseudo-terminal so that it displays any terminal messages to the user</p></li></ul></li></ol><h2 id=stop-container>Stop Container</h2><p><code>sudo docker stop &lt;container-name/id></code></p><h2 id=inspect-container>Inspect Container</h2><p><code>sudo docker inspect &lt;container-name/id></code></p><p>Displays more detail than ps.</p><h2 id=docker-log>Docker Log</h2><p><code>sudo docker log &lt;container-name/id></code>
-Displays the log of the container.</p><h2 id=port-mapping>Port Mapping</h2><ol><li><p><code>sudo docker run &lt;image-name></code>
-Suppose you have a docker engine that hosts a website at 0.0.0.0:8080. When you go to that link the website doesn&rsquo;t open as this link is internal to the docker container. To access it using your IP and port number you have to map the port.</p></li><li><p><code>sudo docker run -p 80:8080 &lt;image-name></code>
-Now when you go to the link <your-ip-address>:80 the website opens</p></li></ol><h2 id=volume-mounting>Volume Mounting</h2><p>When a docker container completes its lifecycle and stops the data contained in it will also be lost. To prevent this loss of important data from docker container we use volume mounting. This is a persistent storage mechanism that helps store data outside container in docker host.</p><ol><li><p>Volume mounting</p><p><code>sudo docker run -v &lt;dir-name>:&lt;docker-data-path> &lt;image-name></code></p><p>The above command saves the data present in <docker-data-path>to docker’s default volume location /var/lib/docker/volumes/<dir-name>.</p></li><li><p>Bind mounting</p><p><code>sudo docker run -v &lt;local-path>:&lt;docker-data-path> &lt;image-name></code></p><p>The above command performs similarly to volume mounting but it saves the data in the specified location (<local-path>) in host engine.</p></li></ol><p>Newer style to perform this is:</p><ol><li><p>Volume mounting</p><p><code>sudo docker run --mount type=volume,source=&lt;volume-name>,target=&lt;container-path> &lt;image-name></code></p></li><li><p>Bind mounting</p><p><code>sudo docker run --mount type=bind,source=&lt;local-path>,target=&lt;docker-data-path> &lt;docker-image></code></p></li></ol><h2 id=creating-images>Creating Images</h2><p>Steps to follow to run an application:</p><ol><li>Start by defining base image or OS</li><li>Update apt repo</li><li>Install dependencies using apt</li><li>Intall program specific dependencies (eg. using pip for python)</li><li>Copy source code to /opt folder</li><li>Run the server</li></ol><p>Following the above steps we create a Dockerfile as shown in the sample below.</p><p>Dockerfile:</p><pre tabindex=0><code>FROM Ubuntu                 &lt;--------------------------------- Starts from a base image or OS
-
-RUN apt-get update&lt;/br&gt;     &lt;--------------------------------- Install dependencies
-RUN apt-get install python                                   | 
-                                                             | 
-RUN pip install flask&lt;/br&gt;                                   |
-RUN pip install flask-mysql &lt;---------------------------------
-
-COPY . /opt/source-code     &lt;--------------------------------- Copy source code
-
-ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask run &lt;------ Specify entrypoint to run the app
-</code></pre><p>Now to build an image:</p><p><code>sudo docker build Dockerfile -t &lt;docker-registry>/&lt;username>/&lt;image-name></code></p><p>To push the docker image in docker-registry:</p><p><code>sudo docker push &lt;docker-registry>/&lt;username>/&lt;image-name></code></p><h2 id=cmd-vs-entrypoint>CMD VS ENTRYPOINT</h2><p>Both CMD and ENTRYPOINT are instructions used to define what command should be run when a container starts.</p><ol><li><p>CMD</p><p>We usually go with the following command to run an instruction</p><p><code>sudo docker run &lt;image> &lt;command></code></p><p>Example:</p><p><code>sudo docker run ubuntu sleep 10</code>
-This runs the docker container using the image and sleeps after 10 seconds. But the use of sleep looks revealing.</p><p>To implement thi using CMD we modify the Dockerfile like:</p><p>Dockerfile</p><pre tabindex=0><code>FROM Ubuntu
-.
-.
-.
-
-CMD sleep 10 / CMD [&#34;sleep&#34;,&#34;10&#34;]
-</code></pre></li><li><p>ENTRYPOINT</p><p>Suppose we want to specify certain parameters during the run time of the command. This is not allowed by CMD as we have to explicitly define the parameters (like 10 for sleep). ENTRYPOINT allows to set such parameters.</p><p>Dockerfile</p><pre tabindex=0><code>FROM Ubuntu
-.
-.
-.
-ENTRYPOINT [&#34;sleep&#34;]
-</code></pre><p>Example:</p><p><code>sudo docker run ubuntu 10</code></p><p>This attaches 10 after the sleep command and the system ends after 10 seconds.</p></li><li><p>Both</p><p>Suppose you want to use ENTRYPOINT but you dont give any arguments. This causes error during the run time. So you have to set a default parameter value when it is not set. For that you make use of both CMD and ENTRYPOINT.</p><p>Dockerfile</p><pre tabindex=0><code>FROM Ubuntu
-.
-.
-.
-
-ENTRYPOINT [&#39;sleep&#39;]
-CMD [&#39;10&#39;]
-</code></pre><p><code>sudo docker run ubuntu 5</code></p><p>This makes and run the container for 5 seconds then closes it.</p><p><code>sudo docker run ubuntu</code></p><p>This makes and run the container for default value (10 seconds) then closes it.</p></li></ol><h2 id=docker-compose>Docker Compose</h2><p>The problem with <code>docker run</code>:</p><p>Suppose you make a voting application which is composed of many other application such as:</p><ol><li>Voting application - Where the user casts their vote</li><li>In-memory database - Redis server to temporarily store the data from voting app</li><li>Worker application - Backend application to run all the functionalities</li><li>Postgres database - Where all of the voting data is stored</li><li>Result application - Where the voting result is displayed</li></ol><p>In order to run all of these application at once and communicate with each other we must specify their respective links like shown below.</p><pre tabindex=0><code>sudo docker run -d --name=redis redis
-
-sudo docker run -d --name=db postgres:9.4
-
-sudo docker run -d --name=vote -p 5000:80 --link= redis:redis voting-app
-
-sudo docker run -d --name=result -p 5001:80 --link db:db result-app
-
-sudo docker run -d --name=worker --link db:db --link redis:redis worker
-</code></pre><p>This way the command looks tedious and unmanagable to enter one by one in Terminal. To solve this we use a .yaml file to specify all of the above.</p><ol><li>Version 1</li></ol><p>docker-compose.yaml</p><pre tabindex=0><code>redis:                                                        &lt;---------------- Name of container
-  image: redis                                                &lt;---------------- Name of image if already created
-
-db:
-  image: postgres:9.4
-
-vote:
-  image: voting-app
-  ports:                                                      &lt;---------------- Port mapping for voting-app
-    -5000:80
-  links:                                                      &lt;---------------- Used to specify dependencies as voting-app depends upon redis application
-    -redis
-
-result:
-  image: result-app  /  build: &lt;path-to-code-with-dockerfile&gt; &lt;--------------- Use &#39;image&#39; if image is already made else use &#39;build&#39;
-  ports:
-    -5001:80
-  links:
-    -db
-
-worker:
-  image: worker
-  links:
-    -redis
-    -db
-</code></pre><ol start=2><li>Version 2</li></ol><p>docker-compose.yaml</p><pre tabindex=0><code>version 2
-
-services:
-  redis:
-    image: redis
-
-  db:
-    image: postgres:9.4
-
-  vote:
-    image: voting-app
-    ports:
-      -5000:80
-    depends_on:
-      -redis
-
-  result:
-    image: result-app  /  build: &lt;path-to-code-with-dockerfile&gt;
-    ports:
-      -5001:80
-    depends_on:
-      -db
-
-  worker:
-    image: worker
-    depends_on:
-      -redis
-      -db
-</code></pre><ol start=3><li>Suppose you want to connect specific services to a dedicated network to separate the traffic. The convention for such scenario is as given below.</li></ol><p>docker-compose.yaml</p><pre tabindex=0><code>version 2
-
-services:
-  redis:
-    image: redis
-
-    networks:
-      - back-end                &lt;--------------- Connects redis container to &#39;back-end&#39; network
-
-  db:
-    image: postgres:9.4
-
-    networks:
-      - back-end
-  
-  vote:
-    image: voting-app
-    ports:
-      - 5000:80
-    
-    depends_on:
-      - redis
-    
-    networks:
-      - front-end               &lt;--------------- Connects vote container to both &#39;back-end&#39; and &#39;front-end&#39; networks
-      - back-end
-
-network:                        &lt;--------------- Defines the networks 
-  front-end:
-  back-end:
-</code></pre></div><div class="row ps-3 pe-3"><div class="col-md-6 share-buttons"></div><div class="col-md-6 btn-improve-page"><a href=https://github.com/uniquekarki/uniquekarki.github.io/edit/main/content/posts/docker/index.md title="Improve this page" target=_blank rel=noopener><i class="fas fa-code-branch"></i>
-Improve this page</a></div></div><hr><div class="row next-prev-navigator"><div class="col-md-6 previous-article"><a href=/posts/bow-vs-tfidf/ title="BoW Vs. TF-IDF" class="btn filled-button"><div><i class="fas fa-chevron-circle-left"></i> Prev</div><div class=next-prev-text>BoW Vs. TF-IDF</div></a></div><div class="col-md-6 next-article"><a href=/posts/my-story/ title="My Story" class="btn filled-button"><div>Next <i class="fas fa-chevron-circle-right"></i></div><div class=next-prev-text>My Story</div></a></div></div><hr></div></div></div><a id=scroll-to-top class=btn type=button data-bs-toggle=tooltip data-bs-placement=left title="Scroll to top"><i class="fas fa-chevron-circle-up"></i></a></section><section class=toc-section id=toc-section><div class=toc-holder><h5 class="text-center ps-3">Table of Contents</h5><hr><div class=toc><nav id=TableOfContents><ul><li><a href=#version>Version</a></li><li><a href=#list-containers>List Containers</a></li><li><a href=#remove-containers>Remove Containers</a></li><li><a href=#list-images>List Images</a></li><li><a href=#remove-images>Remove Images</a></li><li><a href=#run-container>Run Container</a></li><li><a href=#stop-container>Stop Container</a></li><li><a href=#inspect-container>Inspect Container</a></li><li><a href=#docker-log>Docker Log</a></li><li><a href=#port-mapping>Port Mapping</a></li><li><a href=#volume-mounting>Volume Mounting</a></li><li><a href=#creating-images>Creating Images</a></li><li><a href=#cmd-vs-entrypoint>CMD VS ENTRYPOINT</a></li><li><a href=#docker-compose>Docker Compose</a></li></ul></nav></div></div></section></div><footer id=footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-start"><div class="col-md-4 col-sm-12"><h5>Navigation</h5><ul><li class=nav-item><a class=smooth-scroll href=https://uniquekarki.github.io/#about>About</a></li><li class=nav-item><a class=smooth-scroll href=https://uniquekarki.github.io/#research>Research</a></li><li class=nav-item><a class=smooth-scroll href=https://uniquekarki.github.io/#experiences>Experiences</a></li><li class=nav-item><a class=smooth-scroll href=https://uniquekarki.github.io/#education>Education</a></li><li class=nav-item><a class=smooth-scroll href=https://uniquekarki.github.io/#projects>Projects</a></li><li class=nav-item><a class=smooth-scroll href=https://uniquekarki.github.io/#accomplishments>Accomplishments</a></li><li class=nav-item><a class=smooth-scroll href=https://uniquekarki.github.io/#achievements>Achievements</a></li><li class=nav-item><a class=smooth-scroll href=/posts/my-story>My Story</a></li><li class=nav-item><a class=smooth-scroll href=/posts/reads>Reading List</a></li></ul></div><div class="col-md-4 col-sm-12"><h5>Contact me:</h5><ul><li><a href=mailto:uniquekarki02@gmail.com target=_blank rel=noopener><span><i class="fas fa-envelope"></i></span> <span>uniquekarki02@gmail.com</span></a></li><li><a href=https://github.com/uniquekarki target=_blank rel=noopener><span><i class="fab fa-github"></i></span> <span>uniquekarki</span></a></li><li><a href=https://www.linkedin.com/in/unique-karki target=_blank rel=noopener><span><i class="fab fa-linkedin"></i></span> <span>Unique Karki</span></a></li><li><a href=tel:+977-9841413179 target=_blank rel=noopener><span><i class="fas fa-phone-alt"></i></span> <span>+977-9841413179</span></a></li></ul></div></div></div><hr><div class=container><div class="row text-start"><div class=col-md-4><a id=theme href=https://github.com/hugo-toha/toha target=_blank rel=noopener><img src=/images/theme-logo_hu_b3360284c55cf72d.png alt="Toha Theme Logo">
+</a><a class="dropdown-item nav-link" href=# data-scheme=system><img class=theme-icon src=/icons/computer-svgrepo-com.svg width=20 alt="System Theme"></a></div></li></ul></div></div></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/search><input type=text name=keyword placeholder=Search data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/posts data-filter=all>Posts</a></li><div class=subtree><li><i data-feather=minus-circle></i><a class="active list-link" href=/posts/docker/> Docker</a><ul class=active><li><a class=list-link href=/posts/docker/intro/ title=Introduction>Introduction</a></li><li><a class=list-link href=/posts/docker/deploy/ title="Deployment Fullstack">Deployment Fullstack</a></li></ul></li><li><a class=list-link href=/posts/bow-vs-tfidf/ title="BoW Vs. TF-IDF">BoW Vs. TF-IDF</a></li><li><a class=list-link href=/posts/my-story/ title="My Story">My Story</a></li><li><a class=list-link href=/posts/reads/ title="Reading List">Reading List</a></li><li><a class=list-link href=/posts/technical-post/ title="Technical Post">Technical Post</a></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class="content container-fluid" id=content><div class="container-fluid post-card-holder" id=post-card-holder><div class=post-card><div class=card><div class=card-head><a href=/posts/docker/deploy/ class=post-card-link><img class=card-img-top src=/images/default-hero.jpg alt="Hero Image"></a></div><div class=card-body><a href=/posts/docker/deploy/ class=post-card-link><h5 class=card-title>Docker Deployment</h5><p class="card-text post-summary">Hello!</p></a></div><div class=card-footer><span class=float-start>Wednesday, October 29, 2025
+</span><a href=/posts/docker/deploy/ class="float-end btn btn-outline-info btn-sm">Read</a></div></div></div><div class=post-card><div class=card><div class=card-head><a href=/posts/docker/intro/ class=post-card-link><img class=card-img-top src=/images/default-hero.jpg alt="Hero Image"></a></div><div class=card-body><a href=/posts/docker/intro/ class=post-card-link><h5 class=card-title>Docker Introduction</h5><p class="card-text post-summary">This is a collection of personal notes and references that I have gathered while learning Docker.
+Table of Contents Version List Containers Remove Containers List Images Remove Images Run Container Stop Container Inspect Container Docker Log Port Mapping Volume Mounting Creating Images CMD VS ENTRYPOINT Docker Compose Version sudo docker version
+List Containers To list the active containers sudo docker ps
+To list all the containers including the inactive ones sudo docker ps -a</p></a></div><div class=card-footer><span class=float-start>Wednesday, September 17, 2025
+</span><a href=/posts/docker/intro/ class="float-end btn btn-outline-info btn-sm">Read</a></div></div></div></div><div class=paginator></div></div></section></div><footer id=footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-start"><div class="col-md-4 col-sm-12"><h5>Navigation</h5><ul><li class=nav-item><a class=smooth-scroll href=https://uniquekarki.github.io/#about>About</a></li><li class=nav-item><a class=smooth-scroll href=https://uniquekarki.github.io/#research>Research</a></li><li class=nav-item><a class=smooth-scroll href=https://uniquekarki.github.io/#experiences>Experiences</a></li><li class=nav-item><a class=smooth-scroll href=https://uniquekarki.github.io/#education>Education</a></li><li class=nav-item><a class=smooth-scroll href=https://uniquekarki.github.io/#projects>Projects</a></li><li class=nav-item><a class=smooth-scroll href=https://uniquekarki.github.io/#accomplishments>Accomplishments</a></li><li class=nav-item><a class=smooth-scroll href=https://uniquekarki.github.io/#achievements>Achievements</a></li><li class=nav-item><a class=smooth-scroll href=/posts/my-story>My Story</a></li><li class=nav-item><a class=smooth-scroll href=/posts/reads>Reading List</a></li></ul></div><div class="col-md-4 col-sm-12"><h5>Contact me:</h5><ul><li><a href=mailto:uniquekarki02@gmail.com target=_blank rel=noopener><span><i class="fas fa-envelope"></i></span> <span>uniquekarki02@gmail.com</span></a></li><li><a href=https://github.com/uniquekarki target=_blank rel=noopener><span><i class="fab fa-github"></i></span> <span>uniquekarki</span></a></li><li><a href=https://www.linkedin.com/in/unique-karki target=_blank rel=noopener><span><i class="fab fa-linkedin"></i></span> <span>Unique Karki</span></a></li><li><a href=tel:+977-9841413179 target=_blank rel=noopener><span><i class="fas fa-phone-alt"></i></span> <span>+977-9841413179</span></a></li></ul></div></div></div><hr><div class=container><div class="row text-start"><div class=col-md-4><a id=theme href=https://github.com/hugo-toha/toha target=_blank rel=noopener><img src=/images/theme-logo_hu_b3360284c55cf72d.png alt="Toha Theme Logo">
 Toha</a></div><div class="col-md-4 text-center">© 2024 Copyright.</div><div class="col-md-4 text-end"><a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Powered by
 <img src=/images/hugo-logo.svg alt="Hugo Logo" height=18></a></div></div></div></footer><script src=/application.aa07b4fc3d009dc64b2c1c64a17f6ba497be7f2c2d40f56059de2f74642a40a4.js integrity="sha256-qge0/D0AncZLLBxkoX9rpJe+fywtQPVgWd4vdGQqQKQ=" defer></script></body></html>

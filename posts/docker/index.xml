@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker on Unique Karki</title><link>https://uniquekarki.github.io/posts/docker/</link><description>Recent content in Docker on Unique Karki</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 29 Oct 2025 08:06:25 +0600</lastBuildDate><atom:link href="https://uniquekarki.github.io/posts/docker/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker Deployment</title><link>https://uniquekarki.github.io/posts/docker/deploy/</link><pubDate>Wed, 29 Oct 2025 08:06:25 +0600</pubDate><guid>https://uniquekarki.github.io/posts/docker/deploy/</guid><description>&lt;p>Hello!&lt;/p></description></item><item><title>Docker Introduction</title><link>https://uniquekarki.github.io/posts/docker/intro/</link><pubDate>Wed, 17 Sep 2025 08:06:25 +0600</pubDate><guid>https://uniquekarki.github.io/posts/docker/intro/</guid><description>&lt;p>This is a collection of personal notes and references that I have gathered while learning Docker.&lt;/p>
+&lt;h1 id="table-of-contents">Table of Contents&lt;/h1>
+&lt;ol>
+&lt;li>&lt;a href="#version">Version&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#list-containers">List Containers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#remove-containers">Remove Containers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#list-images">List Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#remove-images">Remove Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#run-container">Run Container&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#stop-container">Stop Container&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#inspect-container">Inspect Container&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#docker-log">Docker Log&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#port-mapping">Port Mapping&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#volume-mounting">Volume Mounting&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#creating-images">Creating Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#cmd-vs-entrypoint">CMD VS ENTRYPOINT&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#docker-compose">Docker Compose&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="version">Version&lt;/h2>
+&lt;p>&lt;code>sudo docker version&lt;/code>&lt;/p>
+&lt;h2 id="list-containers">List Containers&lt;/h2>
+&lt;p>To list the active containers &lt;/br>
+&lt;code>sudo docker ps&lt;/code>&lt;/p>
+&lt;p>To list all the containers including the inactive ones &lt;/br>
+&lt;code>sudo docker ps -a&lt;/code>&lt;/p></description></item></channel></rss>
